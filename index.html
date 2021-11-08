@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>pagina web</title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">corporacion</h2>
+        <input type="checkbox" id="ckeck">
+        <label for="ckeck" class="mostrar-menu">&#8801</label>
+        <nav class="menu">
+            <a href="#">inicio</a>
+            <a href="#">sobre nosotros</a>
+            <a href="#">blog</a>
+            <label for= "ckeck" class="esconder-menu">&#215</label>
+           </nav> 
+    </header>
+        <section id="banner">
+           <div class="contenido-banner">
+               <h3><span>CORPORATIVE:</span> DISEÑO WEB RESPONSIVE <br>MOBILE FRIENDLY</h3>
+              <a href="https://www.youtube.com/watch?v=QCNinrT3u3c&list=RDMMQCNinrT3u3c&start_radio=1" target=_blanck  class="boton-empezar">EMPEZAR</a>
+           </div>
+        </section>
+        <section id="personas">
+            <div>
+                <img src="dragon-ball-son-goku.jpg" alt="goku"tile="goku"width="150"height="150">
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, sequi.</p>
+                <a href="#"class="boton-saber-mas">saber mas</a>
+            </div>
+            <div>
+                <img src="images.jfif" alt="goku"tile="goku"width="100"height="150">
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, sequi.</p>
+                <a href="#"class="boton-saber-mas">saber mas</a>
+            </div>
+        </section>
+        <section id="iconos">
+            <div class="contenido-iconos">
+            <div>
+           <img src="clock.png" alt="" whidth="70"height="70">
+           <h6>rapido</h6>
+           <p>Lorem ipsum dolor sit.</p>
+           </div>
+           <div>
+            <img src="accesibility.png" alt="" whidth="70"height="70">
+            <h6>accesible</h6>
+           <p>Lorem ipsum dolor sit.</p>
+            </div>
+            <div id="icono-mobile">
+                <img src="cell-phone.png" alt="" whidth="70"height="70">
+                <h6>responsive</h6>
+           <p>Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+            <div class="boton-iconos">
+                <a href="#" class="boton-saber-mas">saber mas</a>
+            </div>
+        </section>
+        <section id="contacto">
+            <h4>contacta con nosotros</h4>
+            <form action="#">
+                <div class="datos-form">
+                    <div class="nombre">
+                    <label for="nombre">nombre</label>
+                    <input type="text"name="nombre"class="nombre"placeholder="ingresa tu nombre">
+                </div>
+
+
+                <div class="email">
+                    <label for="email">email</label>
+                    <input type="email"name="email"class="email"placeholder="ingresa tu email">
+                </div>
+                </div>
+                <div class="mensaje">
+                    <label for="mensaje">mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="dejame un mensaje"></textarea>
+                </div>
+                <div class="boton-formulario">
+                    <a href="#" class="boton-saber-mas" id="boton" onclick="mostraralerta()">enviar mensaje</a>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <p>&copy;2021 the sergimo</p>
+        </footer>
+        <script>
+            function mostraralerta(){
+                document.getElementById("").innerHTML=alert("mensaje se envio con exito")
+            }
+        </script>
+</body>
+</html>
